@@ -20,6 +20,8 @@ public class TelevisionTest {
 			yourTv.volume=12;
 			yourTv.onOff=true;
 		
+			System.out.println("current channel : "+yourTv.changeChannel(24));
+			
 		System.out.println(myTv.channel+" "+myTv.volume+" "+myTv.onOff);
 		System.out.println(yourTv.channel+" "+yourTv.volume+" "+yourTv.onOff);
 		System.out.println(testTv.channel);

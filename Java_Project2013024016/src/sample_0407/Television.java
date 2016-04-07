@@ -8,4 +8,11 @@ public class Television {
 	void print(){
 		System.out.println(channel+" "+volume+" "+onOff);;
 	}
+	
+	int changeChannel(int ch){    //리모콘 기능1
+		channel=ch;
+		return channel;
+		
+	}
+	
 }
