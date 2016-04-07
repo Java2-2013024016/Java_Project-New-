@@ -12,7 +12,9 @@ public class TelevisionTest {
 		Television testTv=new Television();
 			testTv=myTv;  //값을 가져오는 것이 아니라 주소값을 복사한거라서 myTV를 가리키고 있는 상태임
 			testTv.channel=536;
-			
+		
+		myTv.print();
+		
 		Television yourTv=new Television();
 			yourTv.channel=9;
 			yourTv.volume=12;
