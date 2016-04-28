@@ -7,8 +7,8 @@ public class Array2{
 
 		for (int i=0,r=1;i<2;i++){
 			for(int j=0;j<4;j++,r++){
-				array2[i][j]={r};
-				System.out.print(array[i][j]);
+				arrray2[i][j]=r;
+				System.out.print(arrray2[i][j]+" ");
 			}
 			System.out.println(" ");
 		}
